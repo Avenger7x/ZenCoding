@@ -90,7 +90,7 @@
 	]
 },
 {
-	"keys": ["ctrl+shift+a"], "command": "run_zen_action", "args": {"action": "match_pair_tagname"}, "context":
+	"keys": ["ctrl+shift+t"], "command": "run_zen_action", "args": {"action": "match_pair_tagname"}, "context":
 	[
 		{ "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true },
 		{ "key": "setting.zen_keybinds", "operator": "equal", "operand": true }
@@ -143,13 +143,6 @@
 	"keys": ["ctrl+shift+n"], "command": "run_zen_action", "args": {"action": "match_pair", "direction": "out", "syntax": null}, "context":
 	[
 		{ "key": "selector", "operand": "text.html, source.css, source.scss, text.xml", "operator": "equal", "match_all": true },
-		{ "key": "setting.zen_keybinds", "operator": "equal", "operand": true }
-	]
-},
-{
-	"keys": ["ctrl+shift+t"], "command": "run_zen_action", "args": {"action": "match_pair_inward"}, "context":
-	[
-		{ "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true },
 		{ "key": "setting.zen_keybinds", "operator": "equal", "operand": true }
 	]
 },
